@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Activities</title>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <h1 class="logo">Fayetteville Presbyterian</h1>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="announcements.html">Announcements</a></li>
+        <li><a href="#">Activities</a></li>
+        <li><a href="history.html">History</a></li>
+      </ul>
+    </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+    </label>
+  </header>
+
+  <!-- Section: Activities -->
+  <section id="activities" class="bg-dark p-2">
+    <div class="container">
+      <h2 class="m-heading text-center"><span class="text-primary">Activities</span></h2>
+      <p class="text-center py-1">The Session is looking for Church volunteers to help co-ordinate in the areas of Worship/Christian Education, Buildings and Grounds, and Mission Membership. Talk with any Elder. Which committee would interest you? We need your help! Please pick your committee by May 1st.</p>
+      <p class="text-center py-1">Mark your calendars for Vacation Bible School! The dates are Sunday June 7 – Thursday June 11 and the theme is Escape the Wilderness with Moses.</p>
+      <p class="text-center py-1">Updates regarding postponing VBS due to the COVID-19 outbreak forthcoming.</p>
+      <div class="carousel-container">
+        <i class="fas fa-arrow-left" id="prevBtn"></i>
+        <i class="fas fa-arrow-right" id="nextBtn"></i>
+        <div class="carousel-slide">
+          <img src="./img/image5.jpg" id="lastClone" alt="" width="1100">
+          <img src="./img/image1.jpg"   alt="" width="1100">
+          <img src="./img/image2.jpg"   alt="" width="1100">
+          <img src="./img/image3.jpg"   alt="" width="1100">
+          <img src="./img/image4.jpg"   alt="" width="1100">
+          <img src="./img/image5.jpg"   alt="" width="1100">
+          <img src="./img/image1.jpg" id="firstClone" alt="" width="1100">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Youth -->
+  <section id="youth" class="bg-light py-1">
+    <div class="container">
+      <h2 class="m-heading text-center"><span class="text-primary">Youth</span> Activities</h2>
+      <div class="items">
+        <div class="item">
+          <i class="fas fa-campground fa-2x"></i>
+          <div>
+            <h3>Bluestone Camp & Retreat</h3>
+            <p>Bluestone's primary mission is their Summer Camping Program, although they host many other retreats throughout the year. An unforgetable and valuable experience!</p>
+            <a href="http://bluestonecamp.com/" target="_blank">Read More</a>
+          </div>
+        </div>
+        <div class="item">
+          <i class="fas fa-book-open fa-2x"></i>
+          <div>
+            <h3>Sunday School</h3>
+            <p>Sunday School available for all ages. 9:45am - 10:45am Sunday mornings. Hope to see you there!</p>
+          </div>
+        </div>
+        <div class="item">
+          <i class="fas fa-cross fa-2x"></i>
+          <div>
+            <h3>Triennium</h3>
+            <p>Presbyterian Youth Triennium is a gathering for high school age youth from the Presbyterian Church (USA) and the Cumberland Presbyterian Church that occurs every three years.</p>
+            <a href="https://presbyterianyouthtriennium.org/" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Gabriel -->
+  <section id="gabriel" class="bg-dark p-3">
+    <div class="container">
+      <h2 class="m-heading text-center"><span class="text-primary">Gabriel</span> Project</h2>
+      <p class="text-center">The Gabriel Project, sponsored by and housed in the Fayetteville Presbyterian Church, is a non-profit organization that seeks to ensure that the babies of needy parents will have a safe and healthy start in life. We provide baby items to these parents on an as needed basis. Our site is open twice a month and provides items such as diapers, wipes, formula, car seats, pack-n-plays, strollers, clothing, and many more. In our first three years of being, we have helped about 450 different families during over 3500 client visits. Although the majority of our volunteer workers are members of the congregation at FPC, others come from seven different congregations in our area.</p>
+      <a href="https://www.facebook.com/FayetteCountyGabrielProject/" class="btn" target="_blank">Click here for Gabriel Fayette County info</a>
+    </div>
+  </section>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="bg-dark text-center py-1">
+      <div class="container">
+        <p>Copyright &copy; 2020, Fayetteville Presbyterian Church</p>
+      </div>
+    </footer>
+  
+    <script src="https://www.gstatic.com/firebasejs/7.13.0/firebase-app.js"></script>
+  
+    <script src="https://www.gstatic.com/firebasejs/7.13.0/firebase-database.js"></script>
+  
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.13.0/firebase-analytics.js"></script>
+     
+  
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  
+    <!-- Local JS File -->
+    <script src="js/app.js"></script>
+  
+</body>
+</html>

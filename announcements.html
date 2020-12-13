@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Announcements</title>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <h1 class="logo">Fayetteville Presbyterian</h1>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Announcements</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="history.html">History</a></li>
+      </ul>
+    </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+    </label>
+  </header>
+
+  <!-- Section: Announcements -->
+  <section id="announcements" class="bg-light py-1 p-2">
+    <div class="container">
+      <h2 class="m-heading text-center"><span class="text-primary">Announcements</span></h2>
+      <h2 class="m-heading text-center"><span class="text-primary">Prayer Requests</span></h2>
+      <div class="form-container">
+        <h1 class="brand"><span>Can</span> we pray for you?</h1>
+        <div class="wrapper">
+          <div class="company-info">
+            <h3>Prayer Request Form</h3>
+          </div>
+          <div class="contact">
+            <h3>Email Us</h3>
+            <div class="alert">Your message has been sent</div>
+            <form id="contactForm">
+              <p>
+                <label>First Name</label>
+                <input type="text" name="name" id="firstName" required>
+              </p>
+              <p>
+                <label>Last Name</label>
+                <input type="text" name="name" id="lastName" required>
+              </p>
+              <p>
+                <label>Email Address</label>
+                <input type="email" name="email" id="email">
+              </p>
+              <p>
+                <label>Phone Number</label>
+                <input type="text" name="phone" id="phone">
+              </p>
+              <p class="full">
+                <label>Message</label>
+                <textarea name="message" rows="5" id="message"></textarea>
+              </p>
+              <p class="full">
+                <button type="submit">Submit</button>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+      <p class="text-center">Prayer requests will be updated weekly. If you know of anyone who needs prayer or if some of these need to come off the list, contact Dianne Milam at diannemilam@gmail.com</p>
+      <a href="https://docs.google.com/document/d/1yWMW69wuf4Xlaq1ekYOopitonawum53ATCygx-MlLIA/edit" target="_blank" class="btn btn:hover">Click here for joys and concerns</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="main-footer" class="bg-dark text-center py-1">
+    <div class="container">
+      <p>Copyright &copy; 2020, Fayetteville Presbyterian Church</p>
+    </div>
+  </footer>
+  
+</body>
+</html>
