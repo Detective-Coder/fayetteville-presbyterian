@@ -195,6 +195,14 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
+.bluestone {
+  margin-bottom: 10rem;
+}
+
+.bible-school {
+  margin-bottom: -2rem;
+}
+
 @media screen and (max-width: 1200px) and (min-width: 801px) {
   header {
     display: grid;
@@ -371,6 +379,10 @@ nav a:hover {
   font-size: 30px;
   color: rgb(216, 216, 216);
   font-weight: 600;
+}
+
+#showcase .showcase-content p.bluestone {
+  margin-bottom: 10rem;
 }
 
 /* Announcements */
